@@ -1,0 +1,239 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+ul {
+    padding: 0px!important;
+}
+.menu-pricipal{
+    width: 100%;
+    background-color: #252323;
+    height: 80px;
+}
+main, .content{
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+.logo{
+    float: left;
+    padding: 10px;
+    width: 60%;
+}
+.redes-sociais ul li{
+    margin-left: 33px;
+    display: inline-block;
+    float: left;
+    list-style: none;
+    
+    
+}
+.redes-sociais {
+    width: 33%;
+    float: right;
+}
+.header-2{
+    background-color: snow;
+    width: 980px;
+    margin: 0 auto;
+    padding: 13px;
+    
+    
+}
+.menu-urls{
+    height: 80px;
+    border-bottom: 3px solid #efefef;
+    
+}
+.menu ul li{
+    
+    display: inline-block;
+    color: #8b8b8b;
+    margin-left: 15px;
+    height: 50px;
+}
+.menu ul li:hover{
+    border-bottom: 3px solid rgb(96, 96, 223);
+    
+}
+.menu ul li a:hover{
+    color: rgb(96, 96, 223);
+    
+
+}
+.menu ul li a{
+    display: inline-block;
+    color: #8b8b8b;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.menu{
+    width: 70%;
+    float: left;
+}
+.busca{
+    width: 20%;
+    float: left;
+    
+}
+.busca input{
+    background-image: url('img/seacher.png');
+    background-repeat: no-repeat;
+    background-position: 98%;
+    height: 13px;
+    margin-top: 6px;
+    padding: 12px;
+    width: 162px;
+    border: 2px solid silver;
+}
+.col-100{
+    width: 100%;
+    float: left;
+    position: relative;
+}
+button.slick-prev{
+    font-size: 0px;
+    height: 50px;
+    width: 50px;
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    z-index: 9;
+    background-repeat: no-repeat;
+    top: 43%;
+    left: 14%;
+    background-image: url('img/seta\ esquerda.png');
+}
+button.slick-next{
+    font-size: 0px;
+    height: 50px;
+    width: 50px;
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    z-index: 9;
+    background-repeat: no-repeat;
+    top: 43%;
+    right: 14%;
+    background-image: url('img/seta\ direita\ \(1\).png');
+}
+.slick-list{
+    width: 100%!important;
+}
+.slick-initialized{
+    overflow: hidden;
+}
+.slick-dots li button{
+    font-size: 0px;
+    border: 5px solid white;
+    width: 26px;
+    height: 26px;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.slick-dots{
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left: 48%;
+    top: 96%;
+
+}
+li.slick-active button{
+    background: rgb(96, 96, 223); 
+
+
+}
+.slick-dots li{
+    display: inline-block;
+    padding-left: 10px;
+}
+.texto-destaque {
+    text-align: center;
+    
+}
+.texto-destaque h1{
+    text-transform: uppercase;
+    font-size: 25px ;
+    color: rgba(128, 128, 128, 0.767);
+}
+.texto-destaque strong{
+    color: rgba(128, 128, 128, 0.993);
+}
+.texto-destaque p{
+    font-size: 18px;
+    color: gray;
+}
+.col-3{
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 29%;
+    float: left;
+    position: relative;
+}
+.bloco-imagem img {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+.bloco-imagem {
+    height: 300px;
+    border: 1px solid #c5c5c5;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 10px;
+}
+.bloco-imagem b, p {
+    text-align: left;
+}
+.bloco-texto{
+    margin-top: 3em;
+}
+h2{
+    font-weight: normal!important;
+}
+.bloco-imagens-texto {
+    background-color: #eeeeee;
+}
+.bloco-imagens-texto:before {
+    width: 100%;
+    display: inline-block;
+    content: '';
+    height: 52px;
+    background: #ffffff;
+    background-image: url('img/setinha.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.bloco-imagens-texto:after {
+    width: 100%;
+    display: inline-block;
+    content: '';
+    height: 70px;
+    background: #eeeeee;
+} 
+.col-4{
+    float: left;
+    width: 25%;
+    text-align:center;
+        
+}
+.col-4 img{
+    margin: 0 auto;
+    padding-top: 0;
+    vertical-align: middle;
+}
+.col-4 img:hover{
+    margin-top:  10px;
+    position: relative;
+}
+.bloco-logos{
+    height: 160px;
+}
+.bloco-logos img{
+    margin-top: 50px;
+}
